@@ -103,6 +103,7 @@ public class AddHotelAdGroupBidModifiers {
    * @param adGroupId the ID of the ad group.
    * @throws GoogleAdsException if an API request failed with one or more service errors.
    */
+  // [START addHotelAdGroupBidModifiers]
   private void runExample(GoogleAdsClient googleAdsClient, long customerId, long adGroupId) {
     List<AdGroupBidModifierOperation> operations = new ArrayList<>();
 
@@ -154,4 +155,5 @@ public class AddHotelAdGroupBidModifiers {
       }
     }
   }
+  // [END addHotelAdGroupBidModifiers]
 }
